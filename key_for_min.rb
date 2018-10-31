@@ -14,6 +14,7 @@ def key_for_min_value(name_hash)
     if challenger < lowest_value
       lowest_value = challenger
       key_name = key
+    else lowest_value = challenger
     end
   end
   return key_name
